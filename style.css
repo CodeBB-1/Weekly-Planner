@@ -1,0 +1,100 @@
+* {
+margin: 0;
+/* padding: 0; */
+box-sizing: border-box;
+}
+.navFlex {
+display: flex;
+justify-content: space-between;
+}
+
+.hero {
+position: relative;
+border: solid;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero p {
+position: absolute;
+/* border: green solid; */
+color: white;
+font-size: xx-large;
+background-color: rgb(0 0 0 / 34%);
+padding: 1em;
+}
+
+.description {
+display: flex;
+justify-content: space-between;
+/* border: solid; */
+width: 90%;
+margin-left: 47px;
+padding: 1rem;
+}
+
+.description h5 a {
+margin-left: 12px;
+color: black;
+/* border: solid; */
+}
+
+.icons {
+/* border: solid; */
+display: inline-block;
+margin-left: 180px;
+font-size: large;
+}
+
+.paddings {
+/* border: solid; */
+padding: 5px;
+}
+
+.delete {
+/* border: solid; */
+text-align: end;
+}
+
+footer {
+background-color: rgb(33,37,41);
+margin-top: 15px;
+text-align: center;
+font-size: x-large;
+
+}
+footer p {
+color: white;
+margin-bottom: 0;
+margin-top: 30px;
+padding-bottom: 20px;
+}
+.links {
+/* border: red solid; */
+height: 100px;
+padding-top: 28px;
+}
+.links a {
+color: white;
+border: white solid;
+margin-top: 45px;
+padding: 1em;
+}
+
+.SignUp {
+color: white;
+margin-top: 40px;
+}
+input {
+width: 65%;
+}
+
+.important {
+border: none;
+padding: 0;
+}
+img {
+/* border: solid; */
+height: 195px;
+}
